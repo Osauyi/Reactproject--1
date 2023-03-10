@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Reactproject--1/static/css/main.635b4dba.css",
-    "main.js": "/Reactproject--1/static/js/main.b674de20.js",
+    "main.css": "/Reactproject--1/static/css/main.cd49dc53.css",
+    "main.js": "/Reactproject--1/static/js/main.a4a790b3.js",
     "static/media/result.png": "/Reactproject--1/static/media/result.6c68ab20093abe6dbd56.png",
     "static/media/result1.png": "/Reactproject--1/static/media/result1.616694a696eedc282645.png",
     "static/media/phonecase_low.png": "/Reactproject--1/static/media/phonecase_low.47e6aafeff221ec4b98c.png",
@@ -20,11 +20,11 @@
     "static/media/bars-solid.svg": "/Reactproject--1/static/media/bars-solid.407d96f0e9d1a36140913ade1478fa27.svg",
     "static/media/magnifying-glass-solid.svg": "/Reactproject--1/static/media/magnifying-glass-solid.06e310dbfbf3ab21da478aef6c037c14.svg",
     "static/media/square-facebook.svg": "/Reactproject--1/static/media/square-facebook.cbc694ada3fb194eee75e507a767855f.svg",
-    "main.635b4dba.css.map": "/Reactproject--1/static/css/main.635b4dba.css.map",
-    "main.b674de20.js.map": "/Reactproject--1/static/js/main.b674de20.js.map"
+    "main.cd49dc53.css.map": "/Reactproject--1/static/css/main.cd49dc53.css.map",
+    "main.a4a790b3.js.map": "/Reactproject--1/static/js/main.a4a790b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.635b4dba.css",
-    "static/js/main.b674de20.js"
+    "static/css/main.cd49dc53.css",
+    "static/js/main.a4a790b3.js"
   ]
 }
