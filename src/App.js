@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+// import {ReactComponent as XMark} from "./icons/xmark-solid.svg";
+// import {} from "./components/Navbar.css"
+import Navbar from './components/Navbar';
+import SecondSection from './components/SecondSection';
+import FirstSection from './components/FirstSection';
+import ThirdSection from './components/ThirdSection';
+import Footer from './components/Footer';
+
+
+function App () {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Navbar />
+    <FirstSection />
+    <SecondSection />
+    <ThirdSection />
+    <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+
+export default App
