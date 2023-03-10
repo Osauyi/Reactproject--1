@@ -18,7 +18,7 @@ function openNav () {
    document.querySelector(".barIcon").style.opacity = "0";
    document.querySelector(".barIcon").style.visibility = "hidden";
    document.querySelector(".close-icon").style.display = "block";
-  document.querySelector(".sublinks").style.height = "30%";
+  document.querySelector(".sublinks").style.height = "13%";
 }
 
 function closeNav () {
@@ -46,7 +46,7 @@ function openbigSearchd() {
 } 
 
 function OpenSmallSearch () {
-  document.querySelector(".searchBar").style.height = "15%";
+  document.querySelector(".searchBar").style.height = "6.5%";
   document.querySelector(".Research").focus()
 }
 
@@ -127,25 +127,26 @@ function Navbar () {
                 <li className="borderStyle"><a className="navbar--links" href="#Sweatshirt">Sweatshirts</a></li>
 
                 <li className="subnav borderStyle"><a  onClick={conditionOPenSecondLevel} className="navbar--links" href="#Accessories" >Accessories <img alt="right-arrow" className="arrow--Icon" src={ArrowRight} /><img src={ArrowDown} alt="down-arrow" className="downarrow"/></a>
-                      <div className="sublinks">
-
-                      <ul className="goal">
-
-                        <li className="accessories-arrow borderStyle" onClick={closeSecondLevel} ><img alt="right-arrow" className="arrow--Icon arrowLeft" src={ArrowLeft} /><a  className="navbar--linkeg" href="#lof">Accessories</a></li>
-
-                        <li className="borderStyle"><a className="navbar--linkerd" href="#lof" >decals</a></li>
-
-                        <li className="borderStyle"><a className="navbar--linkerd" href="#lof">Phone cases</a></li>
-
-                      </ul>  
-                      </div>
                 </li>
-
+          
                 <li className="borderStyle"><a className="navbar--links" href="#The brand">The brand</a></li>
 
                 <li className="borderStyle"><a className="navbar--links" href="#Blog">Blog</a></li>
 
               </ul>
+              
+                </div>
+                <div className="sublinks">
+
+                        <ul className="goal">
+
+                          <li className="accessories-arrow borderStyle" onClick={closeSecondLevel} ><img alt="right-arrow" className="arrow--Icon arrowLeft" src={ArrowLeft} /><a  className="navbar--linkeg" href="#lof">Accessories</a></li>
+
+                          <li className="borderStyle"><a className="navbar--linkerd" href="#lof" >decals</a></li>
+
+                          <li className="borderStyle"><a className="navbar--linkerd" href="#lof">Phone cases</a></li>
+
+                        </ul>  
                 </div>
             </li>
           </div>

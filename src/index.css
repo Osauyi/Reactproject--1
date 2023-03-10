@@ -182,14 +182,15 @@ li{
 
 
 .sublinks {
- height: 30%;  
+ height: 13%;  
   width: 0;
-  position: fixed;
+  position: absolute;
   z-index: 100;
  top: 120px;
-  left: 0;
+  right: 0;
    overflow-y: hidden;
   transition: 0.5s; 
+ 
 }
 
 
@@ -198,6 +199,7 @@ li{
   background: white;
   top: 0;
   width: 100%;
+  text-align: left;
 }
 
 .goal a{
@@ -271,16 +273,24 @@ li{
 @media screen and (min-width: 1400px) {
 
 
-/* .searching{
-  display: relative;
-} */
+.searchBar, .searching{
+  position: static;
+  padding: 0;
+}
+
+.mainSearchBar{
+  margin: 0;
+  position: relative;
+  top: 17px;
+}
+
 
   .searchinputContainer{
     display: flex;
     flex-direction: row-reverse;
- height: 8%;  
+ height: 13%;  
   width: 0%;
-  position: fixed;
+  position: absolute;
   z-index: 1;
  top: 52px;
   right: 60px;
@@ -639,6 +649,7 @@ hr{
     background-color: transparent;
     width: 80%;
     padding: 15px 0;
+    max-width: 50rem;
   }
 
   .barIcon, .close-icon{
@@ -671,14 +682,14 @@ hr{
   .sublinks{
     position: relative;
     overflow-y: visible;
-    top: 10px;
-    left: 40px;
+    top: 50px;
+    left: 350px;
   }
 
   .goal {
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: white;
   min-width: 160px;
   border: 1px solid var(--borders);
   z-index: 1;
