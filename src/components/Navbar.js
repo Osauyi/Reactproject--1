@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+
 import React from "react"
 import Logo from "../images/result.png"
 import Bars from "../icons/bars-solid.svg"
@@ -8,6 +9,7 @@ import ArrowRight from "../icons/arrow-point-to-right.png"
 import ArrowLeft from "../icons/left-arrow.png"
 import Close from "../icons/close.png"
 import ArrowDown from "../icons/arrow-down.png"
+// eslint-disable-next-line
 import { calculateNewValue } from "@testing-library/user-event/dist/utils"
 
 
