@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4bce4866.css",
+    "main.js": "/static/js/main.f9c3d5fb.js",
+    "static/media/result.png": "/static/media/result.6c68ab20093abe6dbd56.png",
+    "static/media/result1.png": "/static/media/result1.616694a696eedc282645.png",
+    "static/media/phonecase_low.png": "/static/media/phonecase_low.47e6aafeff221ec4b98c.png",
+    "static/media/phonecase2_low.png": "/static/media/phonecase2_low.ab627537c61e480a5459.png",
+    "static/media/phonecase3_low.png": "/static/media/phonecase3_low.212f9792cdd737f08298.png",
+    "static/media/Mastercard-Logo.wine.png": "/static/media/Mastercard-Logo.wine.5049aded89f45b7fd643.png",
+    "static/media/visa.png": "/static/media/visa.53412106e5dd0cc322c5.png",
+    "static/media/apple-pay.png": "/static/media/apple-pay.88a507c171814d8a881a.png",
+    "static/media/onePieceH.jpg": "/static/media/onePieceH.00f576ece845368c3323.jpg",
+    "static/media/paypal.png": "/static/media/paypal.25b341e7e8db7bd5e1e5.png",
+    "static/media/instagram.svg": "/static/media/instagram.ba01fa545155dae04a0c40b281a2c6ae.svg",
+    "static/media/shopping-bag-svgrepo-com.svg": "/static/media/shopping-bag-svgrepo-com.b852751cb999a33aab5911efd13ba6a6.svg",
+    "static/media/pinterest.svg": "/static/media/pinterest.b313c5eb27e99e2ddaba7094eb88d097.svg",
+    "index.html": "/index.html",
+    "static/media/youtube.svg": "/static/media/youtube.8843f42dede1ada2aaad3d6cb86478d3.svg",
+    "static/media/bars-solid.svg": "/static/media/bars-solid.407d96f0e9d1a36140913ade1478fa27.svg",
+    "static/media/magnifying-glass-solid.svg": "/static/media/magnifying-glass-solid.06e310dbfbf3ab21da478aef6c037c14.svg",
+    "static/media/square-facebook.svg": "/static/media/square-facebook.cbc694ada3fb194eee75e507a767855f.svg",
+    "main.4bce4866.css.map": "/static/css/main.4bce4866.css.map",
+    "main.f9c3d5fb.js.map": "/static/js/main.f9c3d5fb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bce4866.css",
+    "static/js/main.f9c3d5fb.js"
+  ]
+}
