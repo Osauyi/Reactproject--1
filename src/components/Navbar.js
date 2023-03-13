@@ -71,8 +71,11 @@ function secondLevelSmallW() {
 
 function secondLevelBIgW() {
 
-  document.querySelector(".goal").style.display = "block"
+  document.querySelector(".goal").classList.toggle("showGoal")
 }
+
+
+
 
 function conditionOPenSecondLevel() {
  const mediaQuery = window.matchMedia('(min-width: 750px)')

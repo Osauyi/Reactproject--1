@@ -686,14 +686,23 @@ hr{
     left: 350px;
   }
 
-  .goal {
-  display: none;
+  .goal, .showGoal {
+  
   position: absolute;
   background-color: white;
   min-width: 160px;
   border: 1px solid var(--borders);
   z-index: 1;
 }
+
+.goal{
+display: none;
+}
+
+.showGoal{
+display: block;
+}
+
 
 .navbar--linkerd{
   text-align: left;
